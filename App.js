@@ -4,21 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Header from './components/Header'
+import HomeScreen from "./components/HomeScreen";
+import DrawerScreen from "./components/DrawerScreen";
+import symbolicateStackTrace from 'react-native/Libraries/Core/Devtools/symbolicateStackTrace';
 
-export default function App() {
+function App() {
   return (
-    <View>
-      <Header />
-    </View>
+    // <HomeScreen />
+    <DrawerScreen />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

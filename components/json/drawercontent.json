@@ -1,0 +1,12 @@
+[
+    {
+        "title": "GamexHCI",
+        "email": "gdlab2017@gmail.com",
+        "arrow_icon": "https://github.com/jiashuohu/wk5proj/blob/master/Asset/btn_down_arrow.png?raw=true",
+        "home_icon": "https://github.com/jiashuohu/wk5proj/blob/master/Asset/icon_bottomnav_home.png?raw=true",
+        "books_icon": "https://github.com/jiashuohu/wk5proj/blob/master/Asset/icon_bottomnav_mybook.png?raw=true",
+        "favorite_icon": "https://github.com/jiashuohu/wk5proj/blob/master/Asset/icon_drawer_favorites.png?raw=true",
+        "setting_icon": "https://github.com/jiashuohu/wk5proj/blob/master/Asset/icon_drawer_setting.png?raw=true",
+        "about_icon": "https://github.com/jiashuohu/wk5proj/blob/master/Asset/icon_drawer_aboutus.png?raw=true"
+    }
+]
