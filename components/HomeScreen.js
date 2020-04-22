@@ -8,7 +8,7 @@ import Bottom from "../components/Bottom";
 const HomeScreen = () => {
     return (
         <View style={{flex: 1}}>
-            <Header />
+            {/* <Header /> */}
             <FlatList
             data={booksData /*import進去的jason檔案*/}
             renderItem={({item}) => <BooksDetail/*import進去的排版設定元件(component)*/ books/*變數名稱*/={item} />}
